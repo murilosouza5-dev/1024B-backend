@@ -9,7 +9,7 @@
     <h1> Olá Mundo </h1>
     <script>
         async function buscaDados(){
-          const resposta = await fetch("http://localhost:8000/quantidade_pedidos_por_clientes")
+          const resposta = await fetch("http://localhost:8000/cadastro_produto_v2")
           const dados = await resposta.json()
           const div = document.getElementById("lista-pedidos")
           console.log(dados)
